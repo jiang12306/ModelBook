@@ -1,0 +1,246 @@
+/* 
+  Localizable.strings
+  ModelBook
+
+  Created by zdjt on 2017/8/7.
+  Copyright © 2017年 zdjt. All rights reserved.
+*/
+/* BaseTabBarViewController */
+"tabBar-titleA" = "首页";
+"tabBar-titleB" = "工作";
+"tabBar-titleC" = "上传";
+"tabBar-titleD" = "聊天";
+"tabBar-titleE" = "我的";
+
+/* 新特性 */
+"introTextA" = "下一页";
+"introTextB" = "开始体验";
+"Complete" = "完成";
+
+/* LoginViewController */
+"loginButtonTextA" = "登录";
+"loginButtonTextB" = "微信登录";
+"loginButtonTextC" = "注册";
+"loginUserNamePlaceholder" = "账号";
+"loginPwdPlaceholder" = "密码";
+"input new password" = "输入新密码";
+"input again" = "再输一次";
+
+/* RegisterViewController */
+"registerPhonePlaceholder" = "电话号码";
+
+/* VerCodeViewController */
+"verCodeDesA" = "输入验证码";
+"verCodeDesBPartA" = "请等待验证码,";
+"verCodeDesBPartB" = "s后重新发送";
+"verCodeDesC" = "重新发送";
+
+/* PersonInfoAViewController */
+"infoRePwdPlaceholder" = "重新输入密码";
+"infoIDNumPlaceholder" = "身份证号";
+"infoIDNamePlaceholder" = "身份证姓名";
+"infoDOBPlaceholder" = "出生日期";
+"Cancle" = "取消";
+"Confirm" = "确认";
+"infoAModel" = "模特";
+"infoACompany" = "公司";
+"infoAMakeupArtist" = "化妆师";
+"infoAPhotographer" = "摄影师";
+"infoAIndividul" = "个人";
+
+/* PersonInfoBViewController */
+"Address" = "地址";
+"Height" = "身高";
+"Weight" = "体重";
+"My Hour Rate" = "时薪";
+"My Day Rate" = "日薪";
+
+/* LoginFieldViewController */
+"Choose Your Field" = "领域";
+"Advertisements" = "广告";
+"PhotoShoot" = "精品图片";
+"Swimsuite" = "泳衣";
+"RunWay" = "T台";
+"Outdoor" = "室外";
+"Underwear" = "内衣";
+"CoverGuy" = "封面";
+"Street TaoBao" = "淘宝街拍";
+"Events" = "运动";
+
+/* HomeViewController */
+"P&MakeUp" = "摄影化妆师";
+"Model" = "模特";
+"KOL" = "网红";
+"Server return error" = "服务器返回错误";
+"Save" = "保存";
+"Report" = "举报";
+
+/* upload */
+"album" = "相册";
+"video" = "视频";
+"photo" = "照片";
+"livestreem" = "直播";
+"switch" = "切换";
+"upload" = "上传";
+"return" = "回退";
+"too_short" = "不能低于最小时间";
+"movie_saving" = "正在保存...";
+"save_saveToAlbum_succeed" = "保存成功";
+"record_complete" = "录制完成";
+"record_dealing" = "正在处理...";
+"record_failed" = "录制失败";
+"check"  = "查看";
+"videoOK" = "上传";
+"profileAboutMe" = "关于我";
+"profileAbout" = "关于";
+"profileFollowers" = "粉丝";
+"profileAttention" = "关注";
+"profileChat" = "聊天";
+"profileEdit" = "编辑";
+"profileTitle" = "简介";
+"profileCreateJob" = "创建任务";
+"profileFollowing" = "我关注的";
+"profileSaved" = "我的收藏";
+"profileBook" = "预约";
+"profileCancelBook" = "取消预约";
+"profileconfirm" = "确定";
+"profilepastjobs" = "之前的工作照片";
+"profilepastjobscomments" = "之前的工作评论";
+"profilepastjobsComment" = "评论";
+"profilepastjobsReport" = "举报";
+"profilepastjobsfrozen" = "提交";
+"wallet" = "钱包";
+"History" = "支付历史";
+"ProfileEdit" = "编辑";
+"ProfileEditDone" = "完成";
+"ProfileAddress" = "地址";
+"Binding weibo" = "绑定微博";
+"Profilewaist" = "银行卡";
+"ProfileProfile Photo" = "头像";
+"ProfileAbout me" = "关于";
+"ProfileHeight" = "身高";
+"ProfileWeight" = "体重";
+"ProfileMy Hour Rate" = "时薪";
+"ProfileMy Day Rate" = "日薪";
+"ProfileProfileEditDone" = "完成";
+"Profilesetpassword" = "设置密码";
+"Profilesetpassword" = "设置密码";
+"Cancel Apply" = "取消申请";
+"withdraw" = "提现";
+"Payment history" = "支付历史";
+"Setpaypassword" = "设置支付密码";
+"Launch" = "我发起的";
+"Waiting" = "等待回应";
+"NotPass" = "未通过";
+"Pass" = "已通过";
+"Success" = "已成功";
+"Choose Upload video" = "选择上传视频";
+"Choose Upload Photo" = "选择上传图片";
+"Cut Out And Upload" = "截取并上传";
+"Give a Rating" = "评分";
+"Report a complaint" = "评论";
+"Write a comment ..." = "写一个评论……";
+"Photos off Comment" = "评论图片";
+"Comment" = "评价";
+"Report Job" = "举报工作";
+"Terrible Service" = "服务不好";
+"Late" = "迟到";
+"Fake photos" = "图片不真实";
+"Unprofessional" = "不专业";
+"No Show" = "不显示";
+"Good" = "好评";
+"Cancel" = "取消";
+"Save Photo" = "保存图片";
+"Upload Photo" = "从手机相册上传";
+"My Photo" = "个人头像";
+"Save Success" = "保存成功";
+"Upload Success" = "上传成功";
+"Upload Failure" = "上传失败";
+"Logout" = "退出";
+"cancelHidden" = "取消隐藏";
+"Hidden" = "隐藏";
+"Delete" = "删除";
+"Delete Success" = "删除成功";
+"Delete Failure" = "删除失败";
+"Hidden Success" = "隐藏成功";
+"Hidden Failure" = "隐藏失败";
+"Cancel Hidden Success" = "取消隐藏成功";
+"Cancel Hidden Failure" = "取消隐藏失败";
+"BlackList" = "黑名单";
+"AddToBlack" = "加入黑名单";
+"RemoveFromBlack" = "取消黑名单";
+"Warm Prompt" = "温馨提示";
+"Sure you want to delete this job?" = "确定要删除该工作么?";
+"Sure you want to hidden this job?" = "确定要隐藏该工作么?";
+"Sure you want to cancel this job?" = "确定要取消该工作么?";
+"Sure you want to complete this job?" = "确定要完成该工作么?";
+"Sure you want to complete his this job?" = "确定要完成他的工作么?";
+"Sure you want to cancel his job?" = "确定要取消他的工作么?";
+"Through the application need to pay a deposit, sure you want to agree with their application?" = "通过申请需要缴纳一定的保证金,确定要同意他们的申请么?";
+"Sure you want to applay this job?" = "确定要申请该工作么?";
+"Sure you want to join this job?" = "确定要加入该工作么?";
+"Sure you want to cancel hidden this job?" = "确定要取消隐藏该工作么?";
+"Sure you want to delete this resource?" = "确定要删除该资源么?";
+"Sure you want to log out?" = "确定要退出登录么?";
+"Sure you want to cancle job?" = "确定要取消任务么?";
+"Temporarily no data" = "暂无数据";
+"Jobs 15 bookings through MB" = "已成功预约15次";
+"Price per posting" = "发布价";
+"Age" = "年龄";
+"ProfileCategory" = "类型";
+"ProfileAddress" = "地址";
+"Function temporarily not opened!" = "功能暂未开放!";
+"Cancel the reservation success" = "取消预约成功";
+"Cancel the reservation failure" = "取消预约失败";
+"Chat function is temporarily unavailable" = "聊天功能暂不可用";
+"To upload" = "开始上传";
+"Avatar uploaded successfully" = "头像上传成功";
+"Being updated" = "正在更新";
+"Update successful" = "更新成功";
+"Update failed" = "更新失败";
+"Please fill out the changes" = "请填写修改内容";
+"Is setting" = "正在设置";
+"Set up to pay the password successfully" = "设置支付密码成功";
+"Set up to pay the password failure" = "设置支付密码失败";
+"The new password" = "新密码";
+"Confirm new password" = "确认新密码";
+"Confirm to submit" = "确认提交";
+"Job details" = "工作详情";
+"No more pictures!" = "没有更多图片了!";
+"Resources on the cross..." = "资源上传中...";
+"Upload Resource" = "上传资源";
+
+/* Jobs */
+"Search" = "搜索";
+"Create Job" = "创建工作";
+"Job Name" = "活动名称";
+"Location" = "地点";
+"Start" = "开始";
+"End" = "结束";
+"Number of Girls needed" = "名额";
+"Category" = "需求的类型";
+"Rating" = "价格类型";
+"Rate" = "单价";
+"Numbers" = "数量";
+"Description" = "详情描述";
+"Photos of Event" = "活动相关图片";
+"Apply" = "申请加入";
+"Post" = "上传";
+"Job Description" = "工作简介";
+"Man" = "男";
+"Woman" = "女";
+"Day Rate" = "日薪";
+"Hour Rate" = "时薪";
+"Please Choose Start Date" = "请先选择活动开始时间";
+"Start Date Should greater than End Date" = "活动结束时间需要大于开始时间";
+"Choose Time" = "选择时间";
+"Book Day" = "按天预约";
+"AM" = "上午";
+"PM" = "下午";
+"Continue" = "继续";
+"Back" = "返回";
+"Done" = "完成";
+"Pay Succeed" = "支付成功";
+"phone number" = "手机号码";
+"contact number" = "联系电话";
+

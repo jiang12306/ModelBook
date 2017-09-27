@@ -1,0 +1,140 @@
+10
+
+dir
+0
+https://hzkj@182.254.244.65/svn/superman/iOS/ModelBook/Pods/ZFPlayer/ZFPlayer/Category
+https://hzkj@182.254.244.65/svn/superman
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3b357291-87ca-7248-9305-46a31921d0fd
+
+UINavigationController+ZFPlayerRotation.h
+file
+
+
+
+add
+
+UIViewController+ZFPlayerRotation.m
+file
+
+
+
+add
+
+UIImageView+ZFCache.h
+file
+
+
+
+add
+
+UITabBarController+ZFPlayerRotation.m
+file
+
+
+
+add
+
+UIView+CustomControlView.h
+file
+
+
+
+add
+
+UINavigationController+ZFPlayerRotation.m
+file
+
+
+
+add
+
+UIImageView+ZFCache.m
+file
+
+
+
+add
+
+UIView+CustomControlView.m
+file
+
+
+
+add
+
+UIAlertController+ZFPlayerRotation.h
+file
+
+
+
+add
+
+UIWindow+CurrentViewController.h
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+UIViewController+ZFPlayerRotation.h
+file
+
+
+
+add
+
+UITabBarController+ZFPlayerRotation.h
+file
+
+
+
+add
+
+UIAlertController+ZFPlayerRotation.m
+file
+
+
+
+add
+
+UIWindow+CurrentViewController.m
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+

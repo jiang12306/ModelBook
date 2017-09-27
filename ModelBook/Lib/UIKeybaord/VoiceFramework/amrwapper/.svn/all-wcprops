@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/superman/!svn/ver/426/iOS/ModelBook/ModelBook/Lib/UIKeybaord/VoiceFramework/amrwapper
+END
+amrFileCodec.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/superman/!svn/ver/426/iOS/ModelBook/ModelBook/Lib/UIKeybaord/VoiceFramework/amrwapper/amrFileCodec.h
+END
+wav.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/superman/!svn/ver/426/iOS/ModelBook/ModelBook/Lib/UIKeybaord/VoiceFramework/amrwapper/wav.h
+END
+amrFileCodec.mm
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/superman/!svn/ver/426/iOS/ModelBook/ModelBook/Lib/UIKeybaord/VoiceFramework/amrwapper/amrFileCodec.mm
+END
+wav.mm
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/superman/!svn/ver/426/iOS/ModelBook/ModelBook/Lib/UIKeybaord/VoiceFramework/amrwapper/wav.mm
+END

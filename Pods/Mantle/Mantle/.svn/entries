@@ -1,0 +1,238 @@
+10
+
+dir
+0
+https://hzkj@182.254.244.65/svn/superman/iOS/ModelBook/Pods/Mantle/Mantle
+https://hzkj@182.254.244.65/svn/superman
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3b357291-87ca-7248-9305-46a31921d0fd
+
+NSObject+MTLComparisonAdditions.h
+file
+
+
+
+add
+
+NSValueTransformer+MTLInversionAdditions.m
+file
+
+
+
+add
+
+MTLJSONAdapter.m
+file
+
+
+
+add
+
+NSArray+MTLManipulationAdditions.m
+file
+
+
+
+add
+
+MTLTransformerErrorHandling.h
+file
+
+
+
+add
+
+NSObject+MTLComparisonAdditions.m
+file
+
+
+
+add
+
+NSValueTransformer+MTLPredefinedTransformerAdditions.h
+file
+
+
+
+add
+
+MTLTransformerErrorHandling.m
+file
+
+
+
+add
+
+NSValueTransformer+MTLPredefinedTransformerAdditions.m
+file
+
+
+
+add
+
+MTLReflection.h
+file
+
+
+
+add
+
+extobjc
+dir
+
+
+
+add
+
+NSDictionary+MTLMappingAdditions.h
+file
+
+
+
+add
+
+MTLValueTransformer.h
+file
+
+
+
+add
+
+MTLReflection.m
+file
+
+
+
+add
+
+MTLModel.h
+file
+
+
+
+add
+
+MTLModel+NSCoding.h
+file
+
+
+
+add
+
+NSDictionary+MTLJSONKeyPath.h
+file
+
+
+
+add
+
+NSDictionary+MTLManipulationAdditions.h
+file
+
+
+
+add
+
+NSDictionary+MTLMappingAdditions.m
+file
+
+
+
+add
+
+Mantle.h
+file
+
+
+
+add
+
+MTLValueTransformer.m
+file
+
+
+
+add
+
+MTLModel.m
+file
+
+
+
+add
+
+MTLModel+NSCoding.m
+file
+
+
+
+add
+
+NSError+MTLModelException.h
+file
+
+
+
+add
+
+NSDictionary+MTLJSONKeyPath.m
+file
+
+
+
+add
+
+NSDictionary+MTLManipulationAdditions.m
+file
+
+
+
+add
+
+NSValueTransformer+MTLInversionAdditions.h
+file
+
+
+
+add
+
+NSArray+MTLManipulationAdditions.h
+file
+
+
+
+add
+
+MTLJSONAdapter.h
+file
+
+
+
+add
+
+NSError+MTLModelException.m
+file
+
+
+
+add
+

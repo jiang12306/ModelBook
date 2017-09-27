@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PriceTypeView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O7j-Vz-315">
+                    <rect key="frame" x="0.0" y="10" width="375" height="140"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8u8-GS-i6x">
+                            <rect key="frame" x="0.0" y="30" width="375" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="tQW-UC-LmT"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" title="Button">
+                                <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="dayButtonEvent:" destination="iN0-l3-epB" eventType="touchUpInside" id="O04-Mw-Wqf"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fov-FP-nmj">
+                            <rect key="frame" x="0.0" y="70" width="375" height="40"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" title="Button">
+                                <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="hourButtonEvent:" destination="iN0-l3-epB" eventType="touchUpInside" id="lUh-pr-T4g"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y0o-mg-Fxo">
+                            <rect key="frame" x="0.0" y="69" width="375" height="1"/>
+                            <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="kFA-uq-j7S"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="fov-FP-nmj" firstAttribute="leading" secondItem="8u8-GS-i6x" secondAttribute="leading" id="5K0-88-2gb"/>
+                        <constraint firstItem="8u8-GS-i6x" firstAttribute="leading" secondItem="O7j-Vz-315" secondAttribute="leading" id="ClV-Sr-gEq"/>
+                        <constraint firstItem="fov-FP-nmj" firstAttribute="width" secondItem="8u8-GS-i6x" secondAttribute="width" id="E85-QH-wuF"/>
+                        <constraint firstItem="Y0o-mg-Fxo" firstAttribute="centerX" secondItem="O7j-Vz-315" secondAttribute="centerX" id="QFb-wR-fzI"/>
+                        <constraint firstItem="Y0o-mg-Fxo" firstAttribute="leading" secondItem="O7j-Vz-315" secondAttribute="leading" id="aQs-Jf-PA3"/>
+                        <constraint firstAttribute="trailing" secondItem="Y0o-mg-Fxo" secondAttribute="trailing" id="ixC-2n-NyC"/>
+                        <constraint firstItem="8u8-GS-i6x" firstAttribute="centerX" secondItem="O7j-Vz-315" secondAttribute="centerX" id="jQb-I3-jxd"/>
+                        <constraint firstItem="Y0o-mg-Fxo" firstAttribute="centerY" secondItem="O7j-Vz-315" secondAttribute="centerY" id="l4v-Ep-pjb"/>
+                        <constraint firstAttribute="trailing" secondItem="8u8-GS-i6x" secondAttribute="trailing" id="mkv-7P-iz0"/>
+                        <constraint firstItem="8u8-GS-i6x" firstAttribute="bottom" secondItem="O7j-Vz-315" secondAttribute="centerY" id="oG0-af-zAa"/>
+                        <constraint firstItem="fov-FP-nmj" firstAttribute="top" secondItem="8u8-GS-i6x" secondAttribute="bottom" id="uS2-ue-N7p"/>
+                        <constraint firstItem="fov-FP-nmj" firstAttribute="height" secondItem="8u8-GS-i6x" secondAttribute="height" id="zxJ-7x-Dey"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="It0-KL-lru" customClass="TriangleView">
+                    <rect key="frame" x="182.5" y="0.0" width="10" height="10"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="VcX-tX-Tzw"/>
+                        <constraint firstAttribute="width" constant="10" id="kii-bE-i1s"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="It0-KL-lru" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="2m9-VI-ziw"/>
+                <constraint firstAttribute="trailing" secondItem="O7j-Vz-315" secondAttribute="trailing" id="4C0-DC-NN9"/>
+                <constraint firstItem="O7j-Vz-315" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="6hX-Ix-cIi"/>
+                <constraint firstAttribute="bottom" secondItem="O7j-Vz-315" secondAttribute="bottom" id="GJa-K9-AcJ"/>
+                <constraint firstItem="It0-KL-lru" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="MDf-IJ-J51"/>
+                <constraint firstItem="O7j-Vz-315" firstAttribute="top" secondItem="It0-KL-lru" secondAttribute="bottom" id="gXZ-ul-Wy0"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="contentView" destination="O7j-Vz-315" id="6td-vm-2c7"/>
+                <outlet property="dayButton" destination="8u8-GS-i6x" id="k8T-mM-AWw"/>
+                <outlet property="hourButton" destination="fov-FP-nmj" id="Kw9-LZ-aTX"/>
+                <outlet property="lineHeightCons" destination="kFA-uq-j7S" id="AZP-ui-fbN"/>
+                <outlet property="tView" destination="It0-KL-lru" id="5vX-tI-K3R"/>
+            </connections>
+            <point key="canvasLocation" x="-163.5" y="58"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

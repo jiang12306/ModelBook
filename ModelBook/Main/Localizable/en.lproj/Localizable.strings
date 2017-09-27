@@ -1,0 +1,100 @@
+/* 
+  Localizable.strings
+  ModelBook
+
+  Created by zdjt on 2017/8/7.
+  Copyright © 2017年 zdjt. All rights reserved.
+*/
+/* BaseTabBarViewController */
+"tabBar-titleA" = "Home";
+"tabBar-titleB" = "Jobs";
+"tabBar-titleC" = "Upload";
+"tabBar-titleD" = "Chat";
+"tabBar-titleE" = "Profile";
+
+/* 新特性 */
+"introTextA" = "Next";
+"introTextB" = "Start";
+
+/* LoginViewController */
+"loginButtonTextA" = "Log In";
+"loginButtonTextB" = "WeChat Log In";
+"loginButtonTextC" = "Register";
+"loginUserNamePlaceholder" = "Account";
+"loginPwdPlaceholder" = "Password";
+
+/* RegisterViewController */
+"registerPhonePlaceholder" = "Phone Num";
+
+/* VerCodeViewController */
+"verCodeDesA" = "Enter Verification Code";
+"verCodeDesBPartA" = "Please Wait for Verification Code.Press resend after ";
+"verCodeDesBPartB" = "sec";
+"verCodeDesC" = "resend";
+
+/* PersonInfoAViewController */
+"infoRePwdPlaceholder" = "Re-enter Password";
+"infoIDNumPlaceholder" = "ID Number";
+"infoIDNamePlaceholder" = "ID Name";
+"infoDOBPlaceholder" = "D.O.B";
+"infoAModel" = "Model";
+"infoACompany" = "Company";
+"infoAMakeupArtist" = "Makeup Artist";
+"infoAPhotographer" = "Photographer";
+"infoAIndividul" = "Individul";
+
+/* HomeViewController */
+"P&MakeUp" = "P&MakeUp";
+"Model" = "Model";
+"KOL" = "KOL";
+"Server return error" = "Server return error";
+"Save" = "Save";
+"Report" = "Report";
+
+/* upload */
+"album" = "Album";
+"video" = "Video";
+"photo" = "Photo";
+"livestreem" = "Live Streem";
+"switch" = "Switch";
+"upload" = "Upload";
+"return" = "return";
+"too_short" = "too short";
+"movie_saving" = "movie saving";
+"save_saveToAlbum_succeed" = "save succeed";
+"record_complete" = "record complete";
+"record_dealing" = "record dealing";
+"record_failed" = "record failed";
+"check"  = "check";
+"videoOK" = "upload";
+"profileAboutMe" = "About me";
+"profileAbout" = "About";
+"profileFollowers" = "Followers";
+"profileChat" = "Chat";
+"profileEdit" = "Edit";
+"profileTitle" = "Profile";
+"profileCreateJob" = "Create Job";
+"profileFollowing" = "Following";
+"profileAttention" = "Attention";
+"profileSaved" = "Saved";
+"profileBook" = "Book";
+"profileCancelBook" = "Cancel Book";
+"profileconfirm" = "confirm";
+"profilepastjobs" = "Past Jobs";
+"ProfileAddress" = "Address";
+"profilepastjobscomments" = "Past Jobs Comments";
+"profilepastjobsReport" = "Report";
+"profilepastjobsfrozen" = "Job Frozen";
+"wallet" = "Wallet";
+"ProfileEdit" = "Edit Profile";
+"ProfileEditDone" = "Done";
+"ProfileAddress" = "Address";
+"Profilewaist" = "waist";
+"ProfileProfile Photo" = "Profile Photo";
+"ProfileAbout me" = "About me";
+"ProfileHeight" = "Height";
+"ProfileWeight" = "Weight";
+"ProfileMy Hour Rate" = "My Hour Rate";
+"ProfileMy Day Rate" = "My Day Rate";
+"Profilesetpassword" = "Set Pay Password";
+"withdraw" = "Withdraw";

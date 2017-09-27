@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3b357291-87ca-7248-9305-46a31921d0fd++3427",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "3b357291-87ca-7248-9305-46a31921d0fd++3427" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3b357291-87ca-7248-9305-46a31921d0fd++3427" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5EBEAB85-A907-46EE-9441-C10905106AF2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3b357291-87ca-7248-9305-46a31921d0fd++3427" : "ModelBook\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ModelBook",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ModelBook.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/182.254.244.65\/svn\/superman",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3b357291-87ca-7248-9305-46a31921d0fd++3427"
+    }
+  ]
+}

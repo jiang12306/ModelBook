@@ -1,0 +1,70 @@
+10
+
+dir
+0
+https://hzkj@182.254.244.65/svn/superman/iOS/ModelBook/Pods/JSONModel/JSONModel/JSONModel
+https://hzkj@182.254.244.65/svn/superman
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3b357291-87ca-7248-9305-46a31921d0fd
+
+JSONModelError.m
+file
+
+
+
+add
+
+JSONModel.h
+file
+
+
+
+add
+
+JSONModelClassProperty.m
+file
+
+
+
+add
+
+JSONModel.m
+file
+
+
+
+add
+
+JSONModelError.h
+file
+
+
+
+add
+
+JSONModelClassProperty.h
+file
+
+
+
+add
+

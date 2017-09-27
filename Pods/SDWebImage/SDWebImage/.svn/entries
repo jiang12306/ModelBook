@@ -1,0 +1,287 @@
+10
+
+dir
+0
+https://hzkj@182.254.244.65/svn/superman/iOS/ModelBook/Pods/SDWebImage/SDWebImage
+https://hzkj@182.254.244.65/svn/superman
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3b357291-87ca-7248-9305-46a31921d0fd
+
+SDImageCache.h
+file
+
+
+
+add
+
+SDWebImageDecoder.h
+file
+
+
+
+add
+
+SDWebImageManager.h
+file
+
+
+
+add
+
+SDImageCache.m
+file
+
+
+
+add
+
+SDWebImageDecoder.m
+file
+
+
+
+add
+
+UIView+WebCache.h
+file
+
+
+
+add
+
+UIButton+WebCache.h
+file
+
+
+
+add
+
+SDWebImageManager.m
+file
+
+
+
+add
+
+SDWebImageDownloaderOperation.h
+file
+
+
+
+add
+
+UIImageView+WebCache.h
+file
+
+
+
+add
+
+UIView+WebCache.m
+file
+
+
+
+add
+
+UIButton+WebCache.m
+file
+
+
+
+add
+
+SDWebImageDownloaderOperation.m
+file
+
+
+
+add
+
+UIImageView+WebCache.m
+file
+
+
+
+add
+
+NSImage+WebCache.h
+file
+
+
+
+add
+
+SDImageCacheConfig.h
+file
+
+
+
+add
+
+NSData+ImageContentType.h
+file
+
+
+
+add
+
+NSImage+WebCache.m
+file
+
+
+
+add
+
+SDWebImageDownloader.h
+file
+
+
+
+add
+
+UIView+WebCacheOperation.h
+file
+
+
+
+add
+
+SDImageCacheConfig.m
+file
+
+
+
+add
+
+NSData+ImageContentType.m
+file
+
+
+
+add
+
+SDWebImageDownloader.m
+file
+
+
+
+add
+
+UIView+WebCacheOperation.m
+file
+
+
+
+add
+
+UIImageView+HighlightedWebCache.h
+file
+
+
+
+add
+
+SDWebImageCompat.h
+file
+
+
+
+add
+
+UIImageView+HighlightedWebCache.m
+file
+
+
+
+add
+
+UIImage+MultiFormat.h
+file
+
+
+
+add
+
+SDWebImagePrefetcher.h
+file
+
+
+
+add
+
+SDWebImageCompat.m
+file
+
+
+
+add
+
+UIImage+GIF.h
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+UIImage+MultiFormat.m
+file
+
+
+
+add
+
+SDWebImagePrefetcher.m
+file
+
+
+
+add
+
+UIImage+GIF.m
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+SDWebImageOperation.h
+file
+
+
+
+add
+

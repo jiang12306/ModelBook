@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="InfoAddressCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3rk-Pq-j26">
+                    <rect key="frame" x="0.0" y="41" width="316" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qmj-sj-C9l">
+                    <rect key="frame" x="321" y="35" width="49" height="31"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="49" id="Oyd-YZ-eSe"/>
+                        <constraint firstAttribute="height" constant="31" id="XIW-C4-TRh"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="qmj-sj-C9l" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="8Km-G1-1e7"/>
+                <constraint firstItem="3rk-Pq-j26" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="ZwZ-LT-73g"/>
+                <constraint firstAttribute="trailing" secondItem="qmj-sj-C9l" secondAttribute="trailing" constant="5" id="kC4-Q8-wDa"/>
+                <constraint firstItem="3rk-Pq-j26" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="qq9-gU-KdF"/>
+                <constraint firstItem="qmj-sj-C9l" firstAttribute="leading" secondItem="3rk-Pq-j26" secondAttribute="trailing" constant="5" id="z19-NQ-lJy"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="nameLabel" destination="3rk-Pq-j26" id="Ecr-Oo-n7q"/>
+                <outlet property="stateView" destination="qmj-sj-C9l" id="ZH6-wS-sDg"/>
+            </connections>
+            <point key="canvasLocation" x="35.5" y="54"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,126 @@
+10
+
+dir
+0
+https://hzkj@182.254.244.65/svn/superman/iOS/ModelBook/Pods/AFNetworking/AFNetworking
+https://hzkj@182.254.244.65/svn/superman
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3b357291-87ca-7248-9305-46a31921d0fd
+
+AFHTTPSessionManager.m
+file
+
+
+
+add
+
+AFURLResponseSerialization.m
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+AFNetworkReachabilityManager.h
+file
+
+
+
+add
+
+AFURLSessionManager.m
+file
+
+
+
+add
+
+AFNetworking.h
+file
+
+
+
+add
+
+AFSecurityPolicy.h
+file
+
+
+
+add
+
+AFURLRequestSerialization.h
+file
+
+
+
+add
+
+AFNetworkReachabilityManager.m
+file
+
+
+
+add
+
+AFSecurityPolicy.m
+file
+
+
+
+add
+
+AFHTTPSessionManager.h
+file
+
+
+
+add
+
+AFURLRequestSerialization.m
+file
+
+
+
+add
+
+AFURLResponseSerialization.h
+file
+
+
+
+add
+
+AFURLSessionManager.h
+file
+
+
+
+add
+

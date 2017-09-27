@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/superman/!svn/ver/120/iOS/ModelBook/ModelBook/Main/Vendors/Rong_Cloud_iOS_IMKit_SDK_v2_8_15_Dev_13ca0/CallLib/AgoraRtcEngineKit.framework/Headers
+END
+AgoraRtcEngineKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/superman/!svn/ver/120/iOS/ModelBook/ModelBook/Main/Vendors/Rong_Cloud_iOS_IMKit_SDK_v2_8_15_Dev_13ca0/CallLib/AgoraRtcEngineKit.framework/Headers/AgoraRtcEngineKit.h
+END
+IAgoraRtcEngine.h
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/superman/!svn/ver/120/iOS/ModelBook/ModelBook/Main/Vendors/Rong_Cloud_iOS_IMKit_SDK_v2_8_15_Dev_13ca0/CallLib/AgoraRtcEngineKit.framework/Headers/IAgoraRtcEngine.h
+END
+IAgoraMediaEngine.h
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/superman/!svn/ver/120/iOS/ModelBook/ModelBook/Main/Vendors/Rong_Cloud_iOS_IMKit_SDK_v2_8_15_Dev_13ca0/CallLib/AgoraRtcEngineKit.framework/Headers/IAgoraMediaEngine.h
+END

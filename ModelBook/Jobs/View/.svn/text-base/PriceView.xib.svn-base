@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PriceView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aBM-Ia-NiL">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q89-Up-her">
+                    <rect key="frame" x="30" y="243" width="315" height="180"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LeM-q7-dj7">
+                            <rect key="frame" x="107" y="50" width="100" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="JFo-vp-3ht"/>
+                                <constraint firstAttribute="width" constant="100" id="a56-rA-740"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="0.0"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="hourButtonEvent:" destination="iN0-l3-epB" eventType="touchUpInside" id="1tr-kR-c0j"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QIq-bw-CYt">
+                            <rect key="frame" x="107" y="100" width="100" height="30"/>
+                            <state key="normal" title="Button"/>
+                            <connections>
+                                <action selector="dayButtonEvent:" destination="iN0-l3-epB" eventType="touchUpInside" id="JIU-6i-sb5"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="LeM-q7-dj7" firstAttribute="bottom" secondItem="q89-Up-her" secondAttribute="centerY" constant="-10" id="7Da-3I-Byb"/>
+                        <constraint firstItem="QIq-bw-CYt" firstAttribute="height" secondItem="LeM-q7-dj7" secondAttribute="height" id="UE6-yg-kvr"/>
+                        <constraint firstItem="QIq-bw-CYt" firstAttribute="leading" secondItem="LeM-q7-dj7" secondAttribute="leading" id="c6b-vM-cDK"/>
+                        <constraint firstAttribute="height" constant="180" id="eOy-pO-R3L"/>
+                        <constraint firstItem="QIq-bw-CYt" firstAttribute="width" secondItem="LeM-q7-dj7" secondAttribute="width" id="hYx-eF-e1R"/>
+                        <constraint firstItem="LeM-q7-dj7" firstAttribute="centerX" secondItem="q89-Up-her" secondAttribute="centerX" id="jWq-oj-syI"/>
+                        <constraint firstItem="QIq-bw-CYt" firstAttribute="top" secondItem="LeM-q7-dj7" secondAttribute="bottom" constant="20" id="lK7-aW-eID"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="q89-Up-her" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="E3V-Pf-fjd"/>
+                <constraint firstAttribute="trailing" secondItem="q89-Up-her" secondAttribute="trailing" constant="30" id="NzT-Rc-d8F"/>
+                <constraint firstItem="aBM-Ia-NiL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="RTc-ex-RcB"/>
+                <constraint firstItem="q89-Up-her" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="TsG-pk-Aew"/>
+                <constraint firstAttribute="trailing" secondItem="aBM-Ia-NiL" secondAttribute="trailing" id="bFj-bM-SRv"/>
+                <constraint firstItem="q89-Up-her" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="fky-F5-rSO"/>
+                <constraint firstAttribute="bottom" secondItem="aBM-Ia-NiL" secondAttribute="bottom" id="vX9-0M-JLc"/>
+                <constraint firstItem="aBM-Ia-NiL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zeZ-QR-dxd"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <connections>
+                <outlet property="bgView" destination="aBM-Ia-NiL" id="Xg6-Gj-dRZ"/>
+                <outlet property="contentView" destination="q89-Up-her" id="ffI-F7-MyQ"/>
+                <outlet property="dayButton" destination="QIq-bw-CYt" id="IRX-Uc-K9J"/>
+                <outlet property="hourbutton" destination="LeM-q7-dj7" id="lVd-Nz-Q9P"/>
+            </connections>
+        </view>
+    </objects>
+</document>

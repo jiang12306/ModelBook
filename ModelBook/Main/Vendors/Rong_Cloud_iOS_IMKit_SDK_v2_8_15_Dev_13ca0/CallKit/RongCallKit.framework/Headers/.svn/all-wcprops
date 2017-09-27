@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/superman/!svn/ver/120/iOS/ModelBook/ModelBook/Main/Vendors/Rong_Cloud_iOS_IMKit_SDK_v2_8_15_Dev_13ca0/CallKit/RongCallKit.framework/Headers
+END
+RongCallKit.h
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/superman/!svn/ver/120/iOS/ModelBook/ModelBook/Main/Vendors/Rong_Cloud_iOS_IMKit_SDK_v2_8_15_Dev_13ca0/CallKit/RongCallKit.framework/Headers/RongCallKit.h
+END
+RCCallBaseViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/superman/!svn/ver/120/iOS/ModelBook/ModelBook/Main/Vendors/Rong_Cloud_iOS_IMKit_SDK_v2_8_15_Dev_13ca0/CallKit/RongCallKit.framework/Headers/RCCallBaseViewController.h
+END
+RCCallFloatingBoard.h
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/superman/!svn/ver/120/iOS/ModelBook/ModelBook/Main/Vendors/Rong_Cloud_iOS_IMKit_SDK_v2_8_15_Dev_13ca0/CallKit/RongCallKit.framework/Headers/RCCallFloatingBoard.h
+END
+RCCallSingleCallViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/superman/!svn/ver/120/iOS/ModelBook/ModelBook/Main/Vendors/Rong_Cloud_iOS_IMKit_SDK_v2_8_15_Dev_13ca0/CallKit/RongCallKit.framework/Headers/RCCallSingleCallViewController.h
+END
+RCCallVideoMultiCallViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/superman/!svn/ver/120/iOS/ModelBook/ModelBook/Main/Vendors/Rong_Cloud_iOS_IMKit_SDK_v2_8_15_Dev_13ca0/CallKit/RongCallKit.framework/Headers/RCCallVideoMultiCallViewController.h
+END
+RCCall.h
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/superman/!svn/ver/120/iOS/ModelBook/ModelBook/Main/Vendors/Rong_Cloud_iOS_IMKit_SDK_v2_8_15_Dev_13ca0/CallKit/RongCallKit.framework/Headers/RCCall.h
+END
+RCCallTipMessageCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/superman/!svn/ver/120/iOS/ModelBook/ModelBook/Main/Vendors/Rong_Cloud_iOS_IMKit_SDK_v2_8_15_Dev_13ca0/CallKit/RongCallKit.framework/Headers/RCCallTipMessageCell.h
+END
+RCCallMultiCallUserCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/superman/!svn/ver/120/iOS/ModelBook/ModelBook/Main/Vendors/Rong_Cloud_iOS_IMKit_SDK_v2_8_15_Dev_13ca0/CallKit/RongCallKit.framework/Headers/RCCallMultiCallUserCell.h
+END
+RCCallSelectMemberViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/superman/!svn/ver/120/iOS/ModelBook/ModelBook/Main/Vendors/Rong_Cloud_iOS_IMKit_SDK_v2_8_15_Dev_13ca0/CallKit/RongCallKit.framework/Headers/RCCallSelectMemberViewController.h
+END
+RCCallAudioMultiCallViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/superman/!svn/ver/120/iOS/ModelBook/ModelBook/Main/Vendors/Rong_Cloud_iOS_IMKit_SDK_v2_8_15_Dev_13ca0/CallKit/RongCallKit.framework/Headers/RCCallAudioMultiCallViewController.h
+END
+RCCallDetailMessageCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/superman/!svn/ver/120/iOS/ModelBook/ModelBook/Main/Vendors/Rong_Cloud_iOS_IMKit_SDK_v2_8_15_Dev_13ca0/CallKit/RongCallKit.framework/Headers/RCCallDetailMessageCell.h
+END
+RCCallUserCallInfoModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/superman/!svn/ver/120/iOS/ModelBook/ModelBook/Main/Vendors/Rong_Cloud_iOS_IMKit_SDK_v2_8_15_Dev_13ca0/CallKit/RongCallKit.framework/Headers/RCCallUserCallInfoModel.h
+END

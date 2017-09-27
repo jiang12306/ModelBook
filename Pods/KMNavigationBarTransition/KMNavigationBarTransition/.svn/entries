@@ -1,0 +1,119 @@
+10
+
+dir
+0
+https://hzkj@182.254.244.65/svn/superman/iOS/ModelBook/Pods/KMNavigationBarTransition/KMNavigationBarTransition
+https://hzkj@182.254.244.65/svn/superman
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3b357291-87ca-7248-9305-46a31921d0fd
+
+KMWeakObjectContainer.h
+file
+
+
+
+add
+
+UINavigationController+KMNavigationBarTransition.m
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+UIViewController+KMNavigationBarTransition_internal.h
+file
+
+
+
+add
+
+KMWeakObjectContainer.m
+file
+
+
+
+add
+
+KMSwizzle.h
+file
+
+
+
+add
+
+UIViewController+KMNavigationBarTransition.h
+file
+
+
+
+add
+
+UINavigationController+KMNavigationBarTransition_Internal.h
+file
+
+
+
+add
+
+KMSwizzle.m
+file
+
+
+
+add
+
+UINavigationController+KMNavigationBarTransition.h
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+UIViewController+KMNavigationBarTransition.m
+file
+
+
+
+add
+
+KMNavigationBarTransition.h
+file
+
+
+
+add
+

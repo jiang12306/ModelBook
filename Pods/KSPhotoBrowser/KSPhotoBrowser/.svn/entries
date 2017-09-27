@@ -1,0 +1,119 @@
+10
+
+dir
+0
+https://hzkj@182.254.244.65/svn/superman/iOS/ModelBook/Pods/KSPhotoBrowser/KSPhotoBrowser
+https://hzkj@182.254.244.65/svn/superman
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3b357291-87ca-7248-9305-46a31921d0fd
+
+KSPhotoBrowser.h
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+KSPhotoItem.m
+file
+
+
+
+add
+
+KSImageManagerProtocol.h
+file
+
+
+
+add
+
+KSYYImageManager.h
+file
+
+
+
+add
+
+KSProgressLayer.h
+file
+
+
+
+add
+
+KSPhotoBrowser.m
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+KSPhotoView.h
+file
+
+
+
+add
+
+KSYYImageManager.m
+file
+
+
+
+add
+
+KSProgressLayer.m
+file
+
+
+
+add
+
+KSPhotoItem.h
+file
+
+
+
+add
+
+KSPhotoView.m
+file
+
+
+
+add
+

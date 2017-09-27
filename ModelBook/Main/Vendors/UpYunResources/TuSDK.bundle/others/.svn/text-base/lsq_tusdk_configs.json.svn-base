@@ -1,0 +1,38 @@
+{
+    "filterGroups":[
+        {
+            "file":"lsq_filter_YouPaiYun001_89.gfilter",
+            "name":"lsq_filter_group_YouPaiYun001",
+            "default_filter_id":626,
+            "filters":[
+                {
+                    "id":626,
+                    "name":"lsq_filter_Original08",
+                    "color":"#ffffff",
+                    "args":{
+                        "smoothing":0.75,
+                        "mixied":1
+                    }
+                }
+            ]
+        }
+    ],
+    "stickerCategories":[
+        {
+            "id":1,
+            "name":"\u8d34\u7eb8"
+        },
+        {
+            "id":2,
+            "name":"\u5fc3\u60c5"
+        },
+        {
+            "id":3,
+            "name":"\u6c34\u5370"
+        }
+    ],
+    "stickerGroups":[
+        
+    ],
+    "master":"CV66Po4q1yDi53ZzwTgbnK6Uaw0z7moEQ0Ac2O6BHOfhcHta5fnRm+cEWj3PwRCHFa7rHAqPE++hHBPVLVqd\/ZGm4urtoCnQBs4+G1NMZFD6JawW7s3H0DM9ib0qFAX7Beh7auwBduYcp+aQdYTNtI9Hq8x2P3kkZP9Lk5dsRXGGXrJIT5HXO9ZNpcDGtUkU3BN0sBde6MARZAj1qoO6+4ZnT8FGjTX9q3Dn3toYIN4gQ1\/zvaZgPGoksj0blB9wDxG0uYdwirBhQ5rumUfM2GKweYO22O4SeG2w8d7TF2F\/OGYitD0UCPGXi7Ct9qWx7Nu3w\/h5C7Y0\/ZM3AJd71wZ0RZe712Dt2Qjpg4EZpclrlH3RpoN4vroEXkEnKUzffKpxMY0nGY3QkA9eKN\/miRmSC+o2buBy6YWtQn7L3oqyNjLlQYr7Y20vYEQIJdzT8t5oRkPigxbkqeNR1a99d704uuaO5ZJeS5800Xk2fpoObutjRyMBX0LCNgkx\/w2hvvsSCmZ7V9c62CChbFL4zeIIdc7LWOUZmExEJs0gCJABMB\/EZ\/dpvgDc4X2GBwvXPoKKK3za\/a0KYF4giQop7vY+1PD1N17P5cE+UoqQnVlgzkhiygO1Bgx9HFr0an0\/1ZmUe\/bF70nFSJrDd7BuIV4mBD7S7Uy5I\/dUVB1FCrNkndUz2cO1YkwLe4qdbYGA9VINKldEkXg1WZdHOPA9j20GbhZ2On9NtlhemCft\/WT8e9hGxLXQheoFvsuRQ\/4\/B5kiRSOMJOJuNFlFaZ\/kmF5e4tYqtGoYldDPkNarRRUNfk001wsXpgmTfuigEHAsvMZGyMaTl0Up66xeKT+gYRF2W0OQ+BycQRBIRtZLKTUS11G4tlApIz63F1L2jV9rBbGakUe6bc3KNplaExGBKwoQ\/bc300iMTZimwxN7um4c9dSPxBN+WlzlQun4GiBPh3MphtFr+3GwHnBfqBUzYA==BDC4A61221"
+}
