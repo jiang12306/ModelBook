@@ -13,7 +13,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
     if (self.navigationController.childViewControllers.count>1)
     {
         self.leftBtn = [UIButton buttonWithType:UIButtonTypeCustom];
