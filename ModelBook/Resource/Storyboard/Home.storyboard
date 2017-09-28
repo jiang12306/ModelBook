@@ -83,16 +83,19 @@
                                     <constraint firstAttribute="height" constant="25" id="J5G-xU-ulU"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9lq-hv-H7p" userLabel="Search Button">
-                                <rect key="frame" x="31" y="30" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9lq-hv-H7p" userLabel="Search Button">
+                                <rect key="frame" x="31" y="34" width="25" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="OrQ-SR-JVs"/>
                                     <constraint firstAttribute="height" constant="30" id="mPp-jo-y0T"/>
                                 </constraints>
                                 <state key="normal" image="home_search-1"/>
+                                <connections>
+                                    <action selector="clickedSearchButton:" destination="iOu-2e-d59" eventType="touchUpInside" id="K1H-bM-K4T"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOg-Id-BcW">
-                                <rect key="frame" x="314" y="30" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOg-Id-BcW">
+                                <rect key="frame" x="314" y="34" width="25" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="gra-Qu-O7J"/>
                                     <constraint firstAttribute="width" constant="30" id="hPa-Lv-tqs"/>

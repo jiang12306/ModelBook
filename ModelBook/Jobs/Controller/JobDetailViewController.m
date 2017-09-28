@@ -59,6 +59,7 @@
     tLabel.textAlignment = NSTextAlignmentCenter;
     tLabel.font = [UIFont fontWithName:pageFontName size:16.f];
     tLabel.text = NSLocalizedString(@"tabBar-titleB", nil);
+    
     self.navigationItem.titleView = tLabel;
     
     [self setupBackItem];

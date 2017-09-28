@@ -21,7 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+        
     [self.navigationBar setBackgroundImage:[UIImage imageWithColor:[UIColor whiteColor]] forBarMetrics:UIBarMetricsDefault];
     [self.navigationBar setShadowImage:[UIImage imageNamed:@"nav_line_l"]];
     [self.navigationBar setTranslucent:NO];
