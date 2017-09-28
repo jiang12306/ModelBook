@@ -67,9 +67,7 @@ static NSString * const uploadResourceURL = @"http://39.108.152.114/modeltest/al
     [super viewDidLoad];
     
     [self.navigationController setNavigationBarHidden:YES];
-    
-    
-    
+        
 //    self.tabBar.backgroundImage = [UIImage new];
 //    self.tabBar.shadowImage = [UIImage new];
 //    self.tabBar.translucent = NO;

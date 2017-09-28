@@ -284,7 +284,7 @@ static NSString *const reuseIdentifier = @"cell";
 //    [self.navigationController pushViewController:controller animated:YES];
     
     BaseTabBarViewController *controller = (BaseTabBarViewController *)[UIApplication sharedApplication].keyWindow.rootViewController;
-    BaseNavigationViewController *selectedController = (BaseNavigationViewController *)[controller showMainTabBarController:SectionTypeUpload];
+    BaseNavigationViewController *selectedController = (BaseNavigationViewController *)[controller showMainTabBarController:SectionTypeJobs];
     [selectedController setViewControllers:@[[JobCreateViewController instantiateJobCreateViewController]]];
 }
 
@@ -378,7 +378,7 @@ static NSString *const reuseIdentifier = @"cell";
             [self.navigationController pushViewController:detail animated:YES];
             
 //            BaseTabBarViewController *controller = (BaseTabBarViewController *)[UIApplication sharedApplication].keyWindow.rootViewController;
-//            BaseNavigationViewController *selectedController = (BaseNavigationViewController *)[controller showMainTabBarController:SectionTypeUpload];
+//            BaseNavigationViewController *selectedController = (BaseNavigationViewController *)[controller showMainTabBarController:SectionTypeJobs];
 //            [selectedController setViewControllers:@[detail]];
         }else {
             jobInfo *info = [[jobInfo alloc] init];
@@ -393,7 +393,7 @@ static NSString *const reuseIdentifier = @"cell";
             [self.navigationController pushViewController:jobsDetailVC animated:YES];
             
 //            BaseTabBarViewController *controller = (BaseTabBarViewController *)[UIApplication sharedApplication].keyWindow.rootViewController;
-//            BaseNavigationViewController *selectedController = (BaseNavigationViewController *)[controller showMainTabBarController:SectionTypeUpload];
+//            BaseNavigationViewController *selectedController = (BaseNavigationViewController *)[controller showMainTabBarController:SectionTypeJobs];
 //            [selectedController setViewControllers:@[jobsDetailVC]];
         }
         

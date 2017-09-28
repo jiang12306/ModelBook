@@ -315,7 +315,7 @@ static NSString * const checkBookURL = @"http://39.108.152.114/modeltest/job/boo
         controller.userTypeId = self.userInfoModel.userType.userTypeId;
         controller.userTypeName = self.userInfoModel.userType.userTypeName;
         BaseTabBarViewController *vc = (BaseTabBarViewController *)[UIApplication sharedApplication].keyWindow.rootViewController;
-        BaseNavigationViewController *selectedController = (BaseNavigationViewController *)[vc showMainTabBarController:SectionTypeUpload];
+        BaseNavigationViewController *selectedController = (BaseNavigationViewController *)[vc showMainTabBarController:SectionTypeJobs];
         [selectedController setViewControllers:@[controller]];
     }
 }

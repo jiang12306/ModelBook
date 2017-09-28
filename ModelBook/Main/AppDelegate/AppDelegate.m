@@ -301,7 +301,7 @@
     BaseTabBarViewController *controller = [BaseTabBarViewController instantiateTabBarController];
     controller.delegate = self;
     self.window.rootViewController = controller;
-    controller.selectedIndex = 3;
+    controller.selectedIndex = SectionTypeChat;
 }
 
 - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
@@ -428,11 +428,11 @@
             [selectedController setViewControllers:@[[JobsViewController instantiateJobsViewController]]];
         }
     }else if (tabBarController.selectedIndex == 2) {
-        if (![controller.viewControllers.firstObject isKindOfClass:[UploadViewController class]]) {
-            UploadViewController *uploadVC = [[UploadViewController alloc] init];
-            BaseNavigationViewController *selectedController = (BaseNavigationViewController *)viewController;
-            [selectedController setViewControllers:@[uploadVC]];
-        }
+//        if (![controller.viewControllers.firstObject isKindOfClass:[UploadViewController class]]) {
+//            UploadViewController *uploadVC = [[UploadViewController alloc] init];
+//            BaseNavigationViewController *selectedController = (BaseNavigationViewController *)viewController;
+//            [selectedController setViewControllers:@[uploadVC]];
+//        }
     }else if (tabBarController.selectedIndex == 4) {
         if (![controller.viewControllers.firstObject isKindOfClass:[ProfileViewController class]]) {
             ProfileViewController *profileVC = [[ProfileViewController alloc] initWithUserId:[NSString stringWithFormat:@"%ld",[UserInfoManager userID]]];

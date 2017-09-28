@@ -13,7 +13,6 @@
 typedef NS_ENUM(NSInteger, SectionType) {
     SectionTypeHome = 0,
     SectionTypeJobs,
-    SectionTypeUpload,
     SectionTypeChat,
     SectionTypeProfile
 };

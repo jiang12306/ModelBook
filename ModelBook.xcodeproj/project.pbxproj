@@ -548,6 +548,8 @@
 		F24AF30B1F4F30C100897891 /* hud_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F24AF3031F4F30C100897891 /* hud_success@2x.png */; };
 		F24AF30C1F4F30C100897891 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F24AF3051F4F30C100897891 /* ProgressHUD.m */; };
 		F24AF30F1F4F463000897891 /* VideoHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F24AF30E1F4F463000897891 /* VideoHandler.m */; };
+		F267AD341F7CA68F0098431F /* ProfilePersonalAuthorizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F267AD331F7CA68F0098431F /* ProfilePersonalAuthorizeViewController.m */; };
+		F267AD371F7CA6B80098431F /* ProfileEnterpriseAuthorizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F267AD361F7CA6B80098431F /* ProfileEnterpriseAuthorizeViewController.m */; };
 		F272A1B11F4D083500A9D642 /* AssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F272A1AC1F4D083500A9D642 /* AssetModel.m */; };
 		F272A1B21F4D083500A9D642 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F272A1AE1F4D083500A9D642 /* PhotoCell.m */; };
 		F272A1B31F4D083500A9D642 /* PhotoPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F272A1B01F4D083500A9D642 /* PhotoPickerViewController.m */; };
@@ -1442,6 +1444,10 @@
 		F24AF3051F4F30C100897891 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
 		F24AF30D1F4F463000897891 /* VideoHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoHandler.h; sourceTree = "<group>"; };
 		F24AF30E1F4F463000897891 /* VideoHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoHandler.m; sourceTree = "<group>"; };
+		F267AD321F7CA68F0098431F /* ProfilePersonalAuthorizeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfilePersonalAuthorizeViewController.h; sourceTree = "<group>"; };
+		F267AD331F7CA68F0098431F /* ProfilePersonalAuthorizeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfilePersonalAuthorizeViewController.m; sourceTree = "<group>"; };
+		F267AD351F7CA6B80098431F /* ProfileEnterpriseAuthorizeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileEnterpriseAuthorizeViewController.h; sourceTree = "<group>"; };
+		F267AD361F7CA6B80098431F /* ProfileEnterpriseAuthorizeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileEnterpriseAuthorizeViewController.m; sourceTree = "<group>"; };
 		F272A1AB1F4D083500A9D642 /* AssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetModel.h; sourceTree = "<group>"; };
 		F272A1AC1F4D083500A9D642 /* AssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetModel.m; sourceTree = "<group>"; };
 		F272A1AD1F4D083500A9D642 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
@@ -2323,6 +2329,10 @@
 				2ABA44C81F798E22007503F3 /* FollowInfoVC */,
 				F24AF2AE1F4E8C9F00897891 /* ProfileAboutMeController.h */,
 				F24AF2AF1F4E8C9F00897891 /* ProfileAboutMeController.m */,
+				F267AD321F7CA68F0098431F /* ProfilePersonalAuthorizeViewController.h */,
+				F267AD331F7CA68F0098431F /* ProfilePersonalAuthorizeViewController.m */,
+				F267AD351F7CA6B80098431F /* ProfileEnterpriseAuthorizeViewController.h */,
+				F267AD361F7CA6B80098431F /* ProfileEnterpriseAuthorizeViewController.m */,
 				F24AF2B01F4E8C9F00897891 /* ProfileChildCollectionViewController.h */,
 				F24AF2B11F4E8C9F00897891 /* ProfileChildCollectionViewController.m */,
 				F24AF2B21F4E8C9F00897891 /* ProfileChildMyJobsController.h */,
@@ -4064,6 +4074,7 @@
 				D4AD2CFB1F3987D9003F7744 /* BaseTableViewController.m in Sources */,
 				D49E3DD01F3AA92900B20E8B /* Const.m in Sources */,
 				F272A1B11F4D083500A9D642 /* AssetModel.m in Sources */,
+				F267AD341F7CA68F0098431F /* ProfilePersonalAuthorizeViewController.m in Sources */,
 				7DA70F7A1F3C191200378153 /* HomeViewController.m in Sources */,
 				F24AF2EF1F4F0A5900897891 /* ProfileAboutMePhotoCell.m in Sources */,
 				D4D02FE11F4D81D800093867 /* JobsViewController.m in Sources */,
@@ -4146,6 +4157,7 @@
 				D412FB841F3833E40043FA25 /* UIView+Frame.m in Sources */,
 				F21DEF401F5BD1E7004807D1 /* MBProfileMyJobsDetailController.m in Sources */,
 				D412FB721F381B7C0043FA25 /* BaseTabBarViewController.m in Sources */,
+				F267AD371F7CA6B80098431F /* ProfileEnterpriseAuthorizeViewController.m in Sources */,
 				D4AD023E1F622AD000E7A2D1 /* WLUnitField.m in Sources */,
 				F20AA2C81F7414EE006A4381 /* EqualSpaceFlowLayoutEvolve.m in Sources */,
 				2ABA43001F79899A007503F3 /* ClickPressBottomBar.m in Sources */,

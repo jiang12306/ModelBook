@@ -15,6 +15,8 @@
 #import "ProfileCommentModel.h"
 #import "Handler.h"
 #import "ProfileEditInfoController.h"
+#import "ProfilePersonalAuthorizeViewController.h"//Chiang
+#import "ProfileEnterpriseAuthorizeViewController.h"//Chiang
 
 static NSString * const commentImageRequestURL = @"http://39.108.152.114/modeltest/job/query/comment_user_images_why";
 static NSString * const commentDataRequestURL = @"http://39.108.152.114/modeltest/job/query/comment_user";
@@ -243,8 +245,27 @@ static NSString * const commentDataRequestURL = @"http://39.108.152.114/modeltes
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(pushToEditingAction)];
         tap.numberOfTapsRequired = 2;
         [_headerView addGestureRecognizer:tap];
+        
+        //Chiang
+        [_headerView clickedSelectAuthorizeType:^(NSInteger authorizeIndex) {
+            if (authorizeIndex == 1) {//个人认证
+                [self pushToPersonalAuthorizeViewControllerAnimated:YES];
+            }else if (authorizeIndex == 2) {//企业认证
+                [self pushToEnterpriseAuthorizeViewControllerAnimated:YES];
+            }
+        }];
     }
     return _headerView;
+}
+//Chiang 跳转至个人认证界面
+-(void)pushToPersonalAuthorizeViewControllerAnimated:(BOOL ) animated {
+    ProfilePersonalAuthorizeViewController* personVC = [[ProfilePersonalAuthorizeViewController alloc]init];
+    [self.navigationController pushViewController:personVC animated:animated];
+}
+//Chiang 跳转至企业认证界面
+-(void)pushToEnterpriseAuthorizeViewControllerAnimated:(BOOL ) animated {
+    ProfileEnterpriseAuthorizeViewController* enterpriseVC = [[ProfileEnterpriseAuthorizeViewController alloc]init];
+    [self.navigationController pushViewController:enterpriseVC animated:animated];
 }
 
 - (NSMutableArray *)dataSource
