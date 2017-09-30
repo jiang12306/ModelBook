@@ -40,6 +40,7 @@
         offset_x = 20+i%2*screenWidth/2;
         offset_y = 5+i/2*30;
         UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(offset_x, offset_y, screenWidth/2, 30)];
+
         if (i == self.titleArray.count-2)
         {//绑定微博
             NSDictionary *attribtDic = @{NSUnderlineStyleAttributeName:[NSNumber numberWithInteger:NSUnderlineStyleSingle]};

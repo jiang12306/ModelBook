@@ -102,7 +102,6 @@ static CGFloat const aboutWidth = 90;
     {
         self.followersBtn.tag = 5;
         [self.followersBtn setTitle:NSLocalizedString(@"profileFollowers", nil) forState:UIControlStateNormal];
-        [self.aboutBtn setTitle:NSLocalizedString(@"profileAboutMe", nil) forState:UIControlStateNormal];
         [self.aboutBtn setTitle:NSLocalizedString(@"profileAboutMe", nil) forState:UIControlStateSelected];
     }
     [self checkBtnState];

@@ -16,7 +16,7 @@
 #import "MBProfileMyJobsDetailController.h"
 #import "MBCommentViewController.h"
 
-@interface JobsViewController () <UISearchBarDelegate, UITableViewDataSource, UITableViewDelegate>
+@interface JobsViewController () <UISearchBarDelegate, UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIView *topView;
 

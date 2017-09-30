@@ -19,6 +19,7 @@
 #import "ProfileViewController.h"
 #import <KSPhotoBrowser.h>
 #import <KSPhotoItem.h>
+#import "HomeSearchViewController.h"
 
 // 评论键盘
 #import "UIKeyboardBar.h"
@@ -336,6 +337,13 @@ static NSString *tableCellID = @"tableCell";
     [btn setTitleEdgeInsets:UIEdgeInsetsMake(btn.imageView.frame.size.height,-btn.imageView.frame.size.width, 0.0,0.0)];//文字距离上边框的距离增加imageView的高度，距离左边框减少imageView的宽度，距离下边框和右边框距离不变
     [btn setImageEdgeInsets:UIEdgeInsetsMake(0.0, 0.0,0.0, -btn.titleLabel.bounds.size.width)];//图片距离右边框距离减少图片的宽度，其它不边
 }
+
+- (IBAction)clickedSearchButton:(UIButton *)sender {
+    HomeSearchViewController* searchVC = [[HomeSearchViewController alloc]init];
+    [self.navigationController pushViewController:searchVC animated:YES];
+}
+
+
 - (IBAction)changeMode:(UIButton *)sender {
     sender.selected = !sender.selected;
     self.ContentCollectionView.hidden = sender.selected;
@@ -368,9 +376,7 @@ static NSString *tableCellID = @"tableCell";
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView {
     if (scrollView.contentOffset.y < _lastContentOffset) {
         [self hideTopBtn:NO];
-        
-    }
-    else if (scrollView.contentOffset.y > _lastContentOffset) {
+    }else if (scrollView.contentOffset.y > _lastContentOffset) {
         [self hideTopBtn:YES];
     }
 }

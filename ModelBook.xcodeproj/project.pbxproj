@@ -558,6 +558,7 @@
 		F272A1BB1F4D0D8C00A9D642 /* choose_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F272A1B91F4D0D8C00A9D642 /* choose_s@2x.png */; };
 		F272A1BC1F4D0D8C00A9D642 /* choose_s@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F272A1BA1F4D0D8C00A9D642 /* choose_s@3x.png */; };
 		F272A1C71F4DB02700A9D642 /* ResourceUploadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F272A1C61F4DB02700A9D642 /* ResourceUploadModel.m */; };
+		F2BA1A111F7D35D100A220CA /* HomeSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BA1A101F7D35D100A220CA /* HomeSearchViewController.m */; };
 		F2D0730E1F636B38008660DD /* MBProfileHeaderPicController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D0730D1F636B38008660DD /* MBProfileHeaderPicController.m */; };
 		F2D073111F639ADA008660DD /* MBProfileScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D073101F639ADA008660DD /* MBProfileScrollView.m */; };
 		F2D073141F63BFBC008660DD /* UIView+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D073131F63BFBC008660DD /* UIView+Alert.m */; };
@@ -1460,6 +1461,8 @@
 		F272A1BA1F4D0D8C00A9D642 /* choose_s@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "choose_s@3x.png"; sourceTree = "<group>"; };
 		F272A1C51F4DB02700A9D642 /* ResourceUploadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceUploadModel.h; sourceTree = "<group>"; };
 		F272A1C61F4DB02700A9D642 /* ResourceUploadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceUploadModel.m; sourceTree = "<group>"; };
+		F2BA1A0F1F7D35D100A220CA /* HomeSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeSearchViewController.h; sourceTree = "<group>"; };
+		F2BA1A101F7D35D100A220CA /* HomeSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeSearchViewController.m; sourceTree = "<group>"; };
 		F2D0730C1F636B38008660DD /* MBProfileHeaderPicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProfileHeaderPicController.h; sourceTree = "<group>"; };
 		F2D0730D1F636B38008660DD /* MBProfileHeaderPicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProfileHeaderPicController.m; sourceTree = "<group>"; };
 		F2D0730F1F639ADA008660DD /* MBProfileScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProfileScrollView.h; sourceTree = "<group>"; };
@@ -2615,6 +2618,8 @@
 				7D3E59AF1F4C65FE003E8DB8 /* HomeTableViewCell.xib */,
 				7D081C841F41C42700731F7C /* HomeClickedViewController.h */,
 				7D081C851F41C42700731F7C /* HomeClickedViewController.m */,
+				F2BA1A0F1F7D35D100A220CA /* HomeSearchViewController.h */,
+				F2BA1A101F7D35D100A220CA /* HomeSearchViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -4140,6 +4145,7 @@
 				074AD6F61F70C05400352A8D /* UpYunFormUploader.m in Sources */,
 				0368A7CE1F6C0B54005DB600 /* NSString+NSHash.m in Sources */,
 				D40787AD1F4FAA7900CF15C9 /* DatePickView.m in Sources */,
+				F2BA1A111F7D35D100A220CA /* HomeSearchViewController.m in Sources */,
 				F2FE8EE11F73FFAE004ABF83 /* MBEventPhotoView.m in Sources */,
 				0368A7CD1F6C0B54005DB600 /* NSData+MD5Digest.m in Sources */,
 				7D3E59B81F4D2452003E8DB8 /* UserModel.m in Sources */,

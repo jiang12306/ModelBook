@@ -17,7 +17,7 @@
 #import "RCWKUtility.h"
 #import "BlackListViewController.h"
 
-@interface ChatListViewController ()
+@interface ChatListViewController () <UIActionSheetDelegate>
 
 @property (strong, nonatomic) NSMutableDictionary *dataDictionary;
 
@@ -41,7 +41,7 @@ static NSString * const headRuseIdentifier = @"head";
     
     self.title = NSLocalizedString(@"tabBar-titleD", nil);
     
-    UIBarButtonItem *rightItem = [UIBarButtonItem itemWithTarget:self action:@selector(rightItemEvent) image:@"topbar_icon_share_black"];
+    UIBarButtonItem *rightItem = [UIBarButtonItem itemWithTarget:self action:@selector(rightItemEvent) image:@"more"];//Chiang
     self.navigationItem.rightBarButtonItem = rightItem;
     
     [self.tableView registerNib:[UINib nibWithNibName:@"ChatCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:reuseIdentifier];
@@ -313,7 +313,19 @@ static NSString * const headRuseIdentifier = @"head";
 
 - (void)rightItemEvent
 {
-    [self performSegueWithIdentifier:@"black" sender:nil];
+    
+    //Chiang
+    UIActionSheet* sheet = [[UIActionSheet alloc]initWithTitle:nil delegate:self cancelButtonTitle:@"取消" destructiveButtonTitle:nil otherButtonTitles:@"黑名单", @"联系客服", nil];
+    [sheet showInView:self.view];
+}
+
+//Chiang
+-(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+    if (buttonIndex == 0) {
+        [self performSegueWithIdentifier:@"black" sender:nil];
+    }else if (buttonIndex == 1) {
+//        ...
+    }
 }
 
 @end

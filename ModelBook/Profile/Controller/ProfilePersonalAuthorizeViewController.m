@@ -8,6 +8,8 @@
 
 #import "ProfilePersonalAuthorizeViewController.h"
 #import "UploadEditViewController.h"
+#import "AssetModel.h"
+#import "ResourceUploadModel.h"
 
 @interface ProfilePersonalAuthorizeViewController () <UITextFieldDelegate, UIActionSheetDelegate, UploadEditViewControllerDelegate, UINavigationControllerDelegate,UIImagePickerControllerDelegate>
 
@@ -21,6 +23,8 @@
 @end
 
 @implementation ProfilePersonalAuthorizeViewController
+
+#define ORIGINAL_MAX_WIDTH 640.0f
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -164,60 +168,38 @@
 {
     return [UIImagePickerController isCameraDeviceAvailable:UIImagePickerControllerCameraDeviceFront];
 }
-/*
+
 #pragma mark - UploadEditViewControllerDelegate 相册上传代理
 - (void)uploadResource:(NSMutableArray *)array isSelectedVideo:(BOOL)isSelectedVideo
 {
     
-    self.isUploadSuccess = NO;
-    [ProgressHUD showText:NSLocalizedString(@"To upload", nil)];
-    [[YBStatusBarNotificationManager shareManager] displayWithText:NSLocalizedString(@"Resources on the cross...", nil) Duration:60*30];
     NSMutableArray *imageArray = [NSMutableArray array];
-    if (isSelectedVideo)
+    
+    for (AssetModel *model in array)
     {
-        dispatch_group_t group = dispatch_group_create();
-        dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
-        for (int i = 0; i<array.count; i++)
+        UIImage *image = [UIImage imageWithCGImage:[model.asset.defaultRepresentation fullScreenImage]];
+        if (image)
         {
-            AssetModel *model = array[i];
-            dispatch_group_enter(group);
-            dispatch_group_async(group, queue, ^{
-                NSURL *videoURL =[model.asset valueForProperty:ALAssetPropertyAssetURL];
-                AVURLAsset *videoAsset = [[AVURLAsset alloc] initWithURL:videoURL options:nil];
-                [VideoHandler startExportVideoWithVideoAsset:videoAsset fileName:[NSString stringWithFormat:@"%d",i] completion:^(NSString *outputPath) {
-                    if (outputPath.length>0)
-                    {
-                        NSArray *array = [outputPath componentsSeparatedByString:@"/"];
-                        ResourceUploadModel *uploadModel = [[ResourceUploadModel alloc] init];
-                        uploadModel.data = [NSData dataWithContentsOfFile:outputPath];
-                        uploadModel.fileName = array.lastObject;
-                        [imageArray addObject:uploadModel];
-                    }
-                    dispatch_group_leave(group);
-                }];
-            });
+            ResourceUploadModel *uploadModel = [[ResourceUploadModel alloc] init];
+            uploadModel.image = image;
+            uploadModel.fileName = model.asset.defaultRepresentation.filename;
+            [imageArray addObject:uploadModel];
+            
+            [self showImageViewWithImageArray:imageArray];
+            
+            break;
         }
-        WS(weakSelf);
-        dispatch_group_notify(group, dispatch_get_main_queue(), ^{
-            [weakSelf uploadResourceRequest:SelectResourceTypeVideo uploadData:imageArray];
-        });
     }
-    else
-    {
-        for (AssetModel *model in array)
-        {
-            UIImage *image = [UIImage imageWithCGImage:[model.asset.defaultRepresentation fullScreenImage]];
-            if (image)
-            {
-                ResourceUploadModel *uploadModel = [[ResourceUploadModel alloc] init];
-                uploadModel.image = image;
-                uploadModel.fileName = model.asset.defaultRepresentation.filename;
-                [imageArray addObject:uploadModel];
-            }
-        }
-        [self uploadResourceRequest:SelectResourceTypePhoto uploadData:imageArray];
+}
+
+-(void)showImageViewWithImageArray:(NSArray* )arr {
+    if (!self.uploadIV) {
+        self.uploadIV = [[UIImageView alloc]initWithFrame:CGRectMake(self.uploadBtn.frame.origin.x, self.uploadBtn.frame.origin.y + self.uploadBtn.frame.size.height + 30, 80, 80)];
+        [self.view addSubview:self.uploadIV];
     }
-     
+    ResourceUploadModel *uploadModel = [arr objectAtIndex:0];
+    
+    self.uploadIV.image = uploadModel.image;
 }
 
 #pragma mark - UIImagePickerControllerDelegate 相机代理
@@ -238,7 +220,77 @@
 #endif
     }];
 }
-*/
+
+#pragma mark image scale utility
+- (UIImage *)imageByScalingToMaxSize:(UIImage *)sourceImage {
+    if (sourceImage.size.width < ORIGINAL_MAX_WIDTH) return sourceImage;
+    CGFloat btWidth = 0.0f;
+    CGFloat btHeight = 0.0f;
+    if (sourceImage.size.width > sourceImage.size.height) {
+        btHeight = ORIGINAL_MAX_WIDTH;
+        btWidth = sourceImage.size.width * (ORIGINAL_MAX_WIDTH / sourceImage.size.height);
+    } else {
+        btWidth = ORIGINAL_MAX_WIDTH;
+        btHeight = sourceImage.size.height * (ORIGINAL_MAX_WIDTH / sourceImage.size.width);
+    }
+    CGSize targetSize = CGSizeMake(btWidth, btHeight);
+    return [self imageByScalingAndCroppingForSourceImage:sourceImage targetSize:targetSize];
+}
+
+//MARK: 保存
+- (void)saveImageToPhotoAlbum:(UIImage*)savedImage{
+    UIImageWriteToSavedPhotosAlbum(savedImage, self, @selector(image:didFinishSavingWithError:contextInfo:), NULL);
+}
+
+- (UIImage *)imageByScalingAndCroppingForSourceImage:(UIImage *)sourceImage targetSize:(CGSize)targetSize {
+    UIImage *newImage = nil;
+    CGSize imageSize = sourceImage.size;
+    CGFloat width = imageSize.width;
+    CGFloat height = imageSize.height;
+    CGFloat targetWidth = targetSize.width;
+    CGFloat targetHeight = targetSize.height;
+    CGFloat scaleFactor = 0.0;
+    CGFloat scaledWidth = targetWidth;
+    CGFloat scaledHeight = targetHeight;
+    CGPoint thumbnailPoint = CGPointMake(0.0,0.0);
+    if (CGSizeEqualToSize(imageSize, targetSize) == NO)
+    {
+        CGFloat widthFactor = targetWidth / width;
+        CGFloat heightFactor = targetHeight / height;
+        
+        if (widthFactor > heightFactor)
+            scaleFactor = widthFactor; // scale to fit height
+        else
+            scaleFactor = heightFactor; // scale to fit width
+        scaledWidth  = width * scaleFactor;
+        scaledHeight = height * scaleFactor;
+        
+        // center the image
+        if (widthFactor > heightFactor)
+        {
+            thumbnailPoint.y = (targetHeight - scaledHeight) * 0.5;
+        }
+        else
+            if (widthFactor < heightFactor)
+            {
+                thumbnailPoint.x = (targetWidth - scaledWidth) * 0.5;
+            }
+    }
+    UIGraphicsBeginImageContext(targetSize); // this will crop
+    CGRect thumbnailRect = CGRectZero;
+    thumbnailRect.origin = thumbnailPoint;
+    thumbnailRect.size.width  = scaledWidth;
+    thumbnailRect.size.height = scaledHeight;
+    
+    [sourceImage drawInRect:thumbnailRect];
+    
+    newImage = UIGraphicsGetImageFromCurrentImageContext();
+    if(newImage == nil) NSLog(@"could not scale image");
+    
+    //pop the context to get back to the default
+    UIGraphicsEndImageContext();
+    return newImage;
+}
 
 //点击确定button
 -(void)clickedSureButton:(UIButton* )sender {

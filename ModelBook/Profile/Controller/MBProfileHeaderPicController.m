@@ -43,8 +43,8 @@ static NSString *uploadHeaderPicURL = @"http://39.108.152.114/modeltest/user/upl
     self.navigationItem.title = NSLocalizedString(@"My Photo", nil);
     self.view.backgroundColor = [UIColor whiteColor];
     self.rightBtn.hidden = NO;
-    [self.rightBtn setImage:[UIImage imageNamed:@"topbar_icon_share_black"] forState:UIControlStateNormal];
-    [self.rightBtn setImage:[UIImage imageNamed:@"topbar_icon_share_black"] forState:UIControlStateHighlighted];
+    [self.rightBtn setImage:[UIImage imageNamed:@"more"] forState:UIControlStateNormal];//Chiang
+    [self.rightBtn setImage:[UIImage imageNamed:@"more"] forState:UIControlStateHighlighted];//Chiang
     [self.view addSubview:self.imgView];
     [self.view addSubview:self.bgView];
     [self.bgView addSubview:self.cancelBtn];
